@@ -1,0 +1,48 @@
+
+#yo {
+    background-color: #2fc44f;
+    width:80%;
+    margin:0 auto;
+    
+  }
+
+  @media (max-width: 500px) {
+    table, p {
+        font-size: 12px;
+    }
+    
+}
+h1
+{
+    font-size: 3.2vw;
+}
+img {
+    display: block;
+    margin: 0 auto;
+    width:80%;
+    /*  padding: 20% auto;*/
+}
+
+#midiv {
+    width: 80%;
+    padding: 20px;
+    margin:0 10%;
+  }
+
+  #navegador {
+    padding: 20px;
+    width:300px;
+    margin:auto;
+  }
+    #navegador a {
+        padding: 2px 7px 2px 7px;
+        color: #666;
+        background-color: #eeeeee;
+        border: 1px solid #ccc;
+        text-decoration: none;
+    }
+
+    #navegador a:hover {
+        background-color: #2fc44f;
+        color: #ffffff;
+    }
