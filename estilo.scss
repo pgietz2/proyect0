@@ -1,0 +1,86 @@
+
+$my-colord: #6091ca;
+$my-colorl: $my-colord * 1.3;
+
+thead {
+    background-color: $my-colord;
+    color: white;
+  }
+
+@media (max-width: 2500px) {
+    #midiv {
+        width: 70%;
+        padding: 20px;
+        margin:20px auto;
+      }
+} 
+
+@media (max-width: 900px) {
+    table, p {
+        font-size: 14px;
+    }
+    #midiv {
+        width: 90%;
+        padding: 20px;
+        margin:10px auto;
+    }
+    #minis {
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+    table, p {
+        font-size: 12px;
+    }
+    #midiv {
+        width: 90%;
+        padding: 20px;
+        margin:0 auto;
+    }
+    #minis {
+        display: none;
+    }
+}
+
+
+h1
+{
+    font-size: 3.2vw;
+    background-color: $my-colord;
+    text-align: center;
+    width:80%;
+    margin:0 auto;
+}
+img {
+    display: block;
+    margin: 0 auto;
+    width:80%;
+    height:30%;
+    /*  padding: 20% auto;*/
+}
+
+  #navegador {
+    padding: 20px;
+    width:350px;
+    margin:auto;
+    list-style-type:none;
+  
+     li {
+    float: left;
+    padding: 2px 7px 2px 7px;
+    }
+
+     a {
+        padding: 2px 7px 2px 7px;
+        color:#222;
+        background-color: $my-colorl;
+        border: 1px solid $my-colord;
+        text-decoration: none;
+    }
+
+     a:hover {
+        background-color: $my-colord;
+        color: #ffffff;
+    }
+}

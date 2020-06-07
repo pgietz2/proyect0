@@ -1,48 +1,82 @@
+thead {
+  background-color: #6091ca;
+  color: white;
+}
 
-#yo {
-    background-color: #2fc44f;
-    width:80%;
-    margin:0 auto;
-    
+@media (max-width: 2500px) {
+  #midiv {
+    width: 70%;
+    padding: 20px;
+    margin: 20px auto;
   }
+}
 
-  @media (max-width: 500px) {
-    table, p {
-        font-size: 12px;
-    }
-    
+@media (max-width: 900px) {
+  table, p {
+    font-size: 14px;
+  }
+  #midiv {
+    width: 90%;
+    padding: 20px;
+    margin: 10px auto;
+  }
+  #minis {
+    display: none;
+  }
 }
-h1
-{
-    font-size: 3.2vw;
-}
-img {
-    display: block;
+
+@media (max-width: 500px) {
+  table, p {
+    font-size: 12px;
+  }
+  #midiv {
+    width: 90%;
+    padding: 20px;
     margin: 0 auto;
-    width:80%;
-    /*  padding: 20% auto;*/
+  }
+  #minis {
+    display: none;
+  }
 }
 
-#midiv {
-    width: 80%;
-    padding: 20px;
-    margin:0 10%;
-  }
+h1 {
+  font-size: 3.2vw;
+  background-color: #6091ca;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
 
-  #navegador {
-    padding: 20px;
-    width:300px;
-    margin:auto;
-  }
-    #navegador a {
-        padding: 2px 7px 2px 7px;
-        color: #666;
-        background-color: #eeeeee;
-        border: 1px solid #ccc;
-        text-decoration: none;
-    }
+img {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  height: 30%;
+  /*  padding: 20% auto;*/
+}
 
-    #navegador a:hover {
-        background-color: #2fc44f;
-        color: #ffffff;
-    }
+#navegador {
+  padding: 20px;
+  width: 350px;
+  margin: auto;
+  list-style-type: none;
+}
+
+#navegador li {
+  float: left;
+  padding: 2px 7px 2px 7px;
+}
+
+#navegador a {
+  padding: 2px 7px 2px 7px;
+  color: #222;
+  background-color: #7dbdff;
+  border: 1px solid #6091ca;
+  text-decoration: none;
+}
+
+#navegador a:hover {
+  background-color: #6091ca;
+  color: #ffffff;
+}
+/*# sourceMappingURL=estilo.css.map */
